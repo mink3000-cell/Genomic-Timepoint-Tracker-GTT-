@@ -1,0 +1,2 @@
+# ends exactly at chrT:20 (1-based) so that a 3-base REF starting there spills over
+chrT	0	20

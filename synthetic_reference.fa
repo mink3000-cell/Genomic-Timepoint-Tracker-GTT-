@@ -1,0 +1,7 @@
+>chrT synthetic GTT test sequence - not a real genome
+ACGTACGTACAAAAAAAAGT
+CACACACACACATTGGCCAA
+>chrS synthetic GTT test sequence - not a real genome
+AAAAACCCCC
+>chrL synthetic GTT test sequence - soft-masked (lowercase) on purpose
+acgtacgtacgtACGTACGT

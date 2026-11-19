@@ -1,0 +1,15 @@
+##fileformat=VCFv4.2
+##gtt_synthetic=synthetic repeat-normalization follow-up; the same indels anchored on the left; not a biological observation
+##reference=synthetic_reference.fa
+##contig=<ID=chrT,length=40>
+##contig=<ID=chrS,length=10>
+##contig=<ID=chrL,length=20>
+##FILTER=<ID=LowQual,Description="Low quality call">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read depth">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SYNTHETIC_SUBJECT
+chrT	4	.	T	G	50	PASS	.	GT:DP	0/1:30
+chrT	11	.	AA	A	50	PASS	.	GT:DP	0/1:30
+chrT	30	.	ACA	A	50	PASS	.	GT:DP	1/1:30
+chrT	37	.	C	T	50	PASS	.	GT:DP	0/1:30
+chrS	2	.	AA	A	50	PASS	.	GT:DP	0/1:30

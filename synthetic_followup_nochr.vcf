@@ -1,0 +1,12 @@
+##fileformat=VCFv4.2
+##gtt_synthetic=synthetic fixture with unprefixed contig names
+##contig=<ID=1,length=248956422>
+##contig=<ID=2,length=242193529>
+##contig=<ID=X,length=156040895>
+##FILTER=<ID=LowQual,Description="Low quality call">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read depth">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SYNTHETIC_SUBJECT
+1	100000	.	A	G	50	PASS	DP=30	GT:DP	0/1:30
+1	600000	.	C	G	50	PASS	DP=30	GT:DP	0/1:30

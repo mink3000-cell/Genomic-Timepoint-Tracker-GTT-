@@ -1,0 +1,21 @@
+##fileformat=VCFv4.2
+##gtt_synthetic=synthetic baseline fixture with hand-computed expected comparison results; not a biological observation
+##reference=synthetic_GRCh38_fixture
+##contig=<ID=chr1,length=248956422>
+##contig=<ID=chr2,length=242193529>
+##contig=<ID=chrX,length=156040895>
+##FILTER=<ID=LowQual,Description="Low quality call">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Approximate read depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read depth">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SYNTHETIC_SUBJECT
+chr1	100000	.	A	G	50	PASS	DP=30	GT:DP	0/1:30
+chr1	200000	.	C	T	50	PASS	DP=30	GT:DP	0/1:30
+chr1	300000	.	CTT	C	50	PASS	DP=30	GT:DP	0/1:30
+chr1	400000	.	T	A	50	PASS	DP=30	GT:DP	0/1:30
+chr1	450000	.	G	C	50	PASS	DP=30	GT:DP	0/1:30
+chr1	800000	.	A	G	50	PASS	DP=30	GT:DP	0/1:30
+chr1	900000	.	T	C	50	PASS	DP=30	GT:DP	0/1:30
+chr2	500000	.	G	A,T	50	PASS	DP=30	GT:DP	1/2:30
+chr2	800000	.	G	A,*	50	PASS	DP=30	GT:DP	1/2:30
+chrX	1000000	.	A	T	50	PASS	DP=30	GT:DP	1:30

@@ -1,0 +1,4 @@
+# two touching intervals that must merge into one, plus an overlap
+chrT	0	10
+chrT	10	20
+chrT	18	30
